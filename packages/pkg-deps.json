@@ -1,4 +1,18 @@
 {
+   "almalinux" : {
+      "build-requires" : [
+         "python3-devel"
+      ],
+      "requires" : [
+         "e2fsprogs",
+         "iproute",
+         "net-tools",
+         "procps",
+         "rsyslog",
+         "shadow-utils",
+         "sudo"
+      ]
+   },
    "debian" : {
       "build-requires" : [
          "debhelper",
@@ -55,6 +69,20 @@
          "shadow-utils",
          "sudo",
          "hostname"
+      ]
+   },
+   "rocky" : {
+      "build-requires" : [
+         "python3-devel"
+      ],
+      "requires" : [
+         "e2fsprogs",
+         "iproute",
+         "net-tools",
+         "procps",
+         "rsyslog",
+         "shadow-utils",
+         "sudo"
       ]
    },
    "suse" : {

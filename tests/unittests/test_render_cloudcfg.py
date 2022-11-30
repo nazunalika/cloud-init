@@ -9,6 +9,7 @@ from tests.unittests.helpers import cloud_init_project_dir
 
 # TODO(Look to align with tools.render-cloudcfg or cloudinit.distos.OSFAMILIES)
 DISTRO_VARIANTS = [
+    "almalinux",
     "amazon",
     "arch",
     "centos",
@@ -22,6 +23,7 @@ DISTRO_VARIANTS = [
     "openbsd",
     "photon",
     "rhel",
+    "rocky",
     "suse",
     "ubuntu",
     "unknown",

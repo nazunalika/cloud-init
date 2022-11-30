@@ -7762,6 +7762,8 @@ class TestNetRenderers(CiTestCase):
             "eurolinux",
             "fedora",
             "rhel",
+            "rocky",
+            "almalinux",
         ]
         for distro_name in variants:
             m_info.return_value = {"variant": distro_name}
